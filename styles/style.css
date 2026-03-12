@@ -132,6 +132,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form__fieldset-title {
@@ -150,7 +151,7 @@ ol {
 }
 
 .content__accent {
-  color: #545050; 
+  color: #545050;
 }
 
 .content__card-link {
@@ -272,7 +273,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover .search-form__label-text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -288,7 +289,6 @@ ol {
 
 .search-form__submit-button {
   min-width: 194px;
-  min-height: 34px;
   align-self: flex-end;
 }
 
@@ -301,11 +301,11 @@ ol {
   font-weight: 700;
   background-color: transparent;
   cursor: pointer;
+  min-height: 34px;
 }
 
 .more-button {
   width: 100%;
-  min-height: 34px;
 }
 
 .button:hover {
